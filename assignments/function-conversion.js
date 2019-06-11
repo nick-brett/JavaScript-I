@@ -4,7 +4,7 @@
 // console.log("Function was invoked!");
 // };
 // myFunction();
-let myFunction = () => console.log("Function was invoked"); //<---- which is correct?
+let myFunction = () => "Function was invoked"; //<---- which is correct?
 // let anotherFunction = function (param) {
 //   return param;
 // };
@@ -20,7 +20,6 @@ let add = (param1, param2) => param1 + param2;
 // };
 // subtract(1,2);
 let subtract = (param1, param2) => param1 - param2;
-console.log('Hello World');
 
 // Stretch
 
